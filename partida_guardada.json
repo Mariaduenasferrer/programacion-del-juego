@@ -1,0 +1,31 @@
+{
+  "jugador1": [
+    {
+      "tipo": "Ingeniero",
+      "x": 0,
+      "y": 0,
+      "hp": 100
+    },
+    {
+      "tipo": "Poeta",
+      "x": 0,
+      "y": 1,
+      "hp": 80
+    }
+  ],
+  "turno": "Jugador 1",
+  "jugador2": [
+    {
+      "tipo": "Ingeniero",
+      "x": 9,
+      "y": 9,
+      "hp": 100
+    },
+    {
+      "tipo": "Poeta",
+      "x": 9,
+      "y": 8,
+      "hp": 80
+    }
+  ]
+}
