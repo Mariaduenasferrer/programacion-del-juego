@@ -12,22 +12,15 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-
-
-
-
-
 
 
 import juego.estructuras.Cola;
 
 public class Partida {
-    private Tablero tablero;
-    private Jugador jugador1;
-    private Jugador jugador2;
-    private Cola<Jugador> colaTurnos;
+    protected Tablero tablero;
+    protected Jugador jugador1;
+    protected Jugador jugador2;
+    protected Cola<Jugador> colaTurnos;
 
     public Partida(int filas, int columnas) {
         tablero = new Tablero(filas, columnas);
@@ -173,6 +166,4 @@ public class Partida {
             tablero.getCasilla(us.x, us.y).ocupar(u);
         }
     }
-
-
 }

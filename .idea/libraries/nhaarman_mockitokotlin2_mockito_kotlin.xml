@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="nhaarman.mockitokotlin2.mockito.kotlin" type="repository">
+    <properties maven-id="com.nhaarman.mockitokotlin2:mockito-kotlin:2.1.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/mockito-kotlin-2.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mockito-core-2.23.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/byte-buddy-1.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/byte-buddy-agent-1.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/objenesis-2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

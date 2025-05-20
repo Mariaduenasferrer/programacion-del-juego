@@ -8,6 +8,7 @@ public abstract class Unidad {
     protected int rangoMovimiento;
     protected int rangoAtaque;
     protected int x, y;
+    protected String habilidad;
 
     public Unidad(String nombre, int hp, int ataque, int defensa, int rangoMovimiento, int rangoAtaque) {
         this.nombre = nombre;
@@ -37,6 +38,7 @@ public abstract class Unidad {
     public int getY() { return y; }
     public int getHp() {
         return hp; }
+    public void setHp(int hp) {  this.hp = hp; }
     public String getNombre() { return nombre; }
 
     public boolean puedeAtacarA(Unidad objetivo) {
@@ -71,15 +73,20 @@ public abstract class Unidad {
     }
 
 
-    public void setHp(int hp) {
-        this.hp = hp;
-    }
 
+    public int getRangoMovimiento() { return rangoMovimiento; }
+    public void setRangoMovimiento(int RangoMovimiento) { this.rangoMovimiento = RangoMovimiento; }
 
+    public int getRangoAtaque() { return rangoAtaque; }
+    public void setRangoAtaque(int RangoAtaque) { this.rangoAtaque = RangoAtaque; }
 
+    public String getHabilidad() { return habilidad; }
+    public void setHabilidad(String Habilidad) { this.habilidad = Habilidad; }
 
+    public int getAtaque() { return ataque; }
+    public void setAtaque(int Ataque) { this.ataque = Ataque; }
 
-
-
+    public int getDefensa() { return defensa; }
+    public void setDefensa(int Defensa) { this.defensa = Defensa; }
 }
 

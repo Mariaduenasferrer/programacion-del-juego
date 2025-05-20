@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="demojavafx">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../demojavafx" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../demojavafx/src/main/java" />
+    </SOURCES>
+  </library>
+</component>

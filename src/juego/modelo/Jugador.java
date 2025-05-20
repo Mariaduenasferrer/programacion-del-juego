@@ -3,8 +3,8 @@ package juego.modelo;
 import juego.estructuras.ListaEnlazada;
 
 public class Jugador {
-    private String nombre;
-    private ListaEnlazada<Unidad> unidades;
+    private final String nombre;
+    private final ListaEnlazada<Unidad> unidades;
 
     public Jugador(String nombre) {
         this.nombre = nombre;
